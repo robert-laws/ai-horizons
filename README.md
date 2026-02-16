@@ -1,4 +1,5 @@
 # AI Horizons
+[![GitHub Pages Deployment](https://github.com/robert-laws/ai-horizons/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/robert-laws/ai-horizons/actions/workflows/pages/pages-build-deployment)
 
 AI Horizons is a single-page, interview-ready portfolio site for an Emerging Technologies/AI Librarian role. It is built with vanilla HTML/CSS/JS plus Bootstrap and Font Awesome, and is designed to deploy directly on GitHub Pages.
 
