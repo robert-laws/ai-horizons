@@ -47,6 +47,32 @@ AI Horizons is a single-page, interview-ready portfolio site for an Emerging Tec
 5. Your site should publish at:
    - `https://robert-laws.github.io/ai-horizons/`
 
+## Deployment Operations
+
+- Production URL: `https://robert-laws.github.io/ai-horizons/`
+- Deployment status badge: shown at the top of this README.
+- Deployment workflow runs are available at:
+  - `https://github.com/robert-laws/ai-horizons/actions/workflows/pages/pages-build-deployment`
+
+### Verify a fresh deployment
+
+1. Open the deployment badge link and confirm the latest run is successful.
+2. Open the production URL in a private/incognito browser window.
+3. Hard refresh (`Cmd+Shift+R` on macOS) to bypass cached assets.
+4. Confirm:
+   - Top navigation anchors scroll to all sections.
+   - Quiz/poll/accordion interactions load.
+   - Images and CSS load without 404 errors.
+
+### Common deployment fixes
+
+1. Site shows 404:
+   - Re-check **Settings > Pages** is set to `main` and `/ (root)`.
+2. Changes not visible:
+   - Wait for the latest Pages workflow to complete, then hard refresh.
+3. Form submissions fail:
+   - Replace `YOUR_FORM_ID` in `index.html` with your real Formspree ID.
+
 ## Local Preview
 
 Open `index.html` directly in a browser, or run a simple static server from repo root.
