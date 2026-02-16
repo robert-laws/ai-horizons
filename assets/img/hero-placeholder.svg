@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">AI Horizons hero placeholder</title>
+  <desc id="desc">Abstract bookshelf and network motif for AI Horizons portfolio homepage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7f4f1"/>
+      <stop offset="100%" stop-color="#c4e7f4"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e7d93"/>
+      <stop offset="100%" stop-color="#0a5c6a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g opacity="0.6">
+    <circle cx="250" cy="160" r="95" fill="#8de2d2"/>
+    <circle cx="920" cy="120" r="70" fill="#7cc8e7"/>
+    <circle cx="980" cy="650" r="110" fill="#78e0c9"/>
+  </g>
+  <g stroke="#19748b" stroke-width="4" fill="none" opacity="0.55">
+    <path d="M130 220 C 340 80, 520 330, 760 180"/>
+    <path d="M240 480 C 450 300, 700 570, 960 420"/>
+    <path d="M150 640 C 420 510, 670 760, 1070 620"/>
+    <circle cx="130" cy="220" r="10" fill="#19748b"/>
+    <circle cx="760" cy="180" r="10" fill="#19748b"/>
+    <circle cx="960" cy="420" r="10" fill="#19748b"/>
+  </g>
+  <g transform="translate(120,420)">
+    <rect width="960" height="250" rx="20" fill="#ffffff" opacity="0.86"/>
+    <rect x="30" y="40" width="900" height="30" rx="8" fill="url(#shelf)"/>
+    <rect x="30" y="108" width="900" height="30" rx="8" fill="url(#shelf)"/>
+    <rect x="30" y="176" width="900" height="30" rx="8" fill="url(#shelf)"/>
+    <g fill="#eefcff" font-family="Arial, sans-serif" font-size="26" font-weight="700">
+      <text x="52" y="63">AI HORIZONS</text>
+      <text x="52" y="131">LIBRARIES + ACADEMIA</text>
+      <text x="52" y="199">PLACEHOLDER HERO IMAGE</text>
+    </g>
+  </g>
+</svg>
