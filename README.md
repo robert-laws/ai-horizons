@@ -1,11 +1,12 @@
 # AI Horizons
 [![GitHub Pages Deployment](https://github.com/robert-laws/ai-horizons/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/robert-laws/ai-horizons/actions/workflows/pages/pages-build-deployment)
 
-AI Horizons is a single-page, interview-ready portfolio site for an Emerging Technologies/AI Librarian role. It is built with vanilla HTML/CSS/JS plus Bootstrap and Font Awesome, and is designed to deploy directly on GitHub Pages.
+AI Horizons is an interview-ready portfolio site for an Emerging Technologies/AI Librarian role. It is built with vanilla HTML/CSS/JS plus Bootstrap and Font Awesome, and is designed to deploy directly on GitHub Pages.
 
 ## Live Structure
 
-- `index.html` (single-page experience with Home + Q1-Q5 sections)
+- `index.html` (homepage + Q1-Q5 interview sections)
+- `tools.html` (dedicated AI tools catalog for research, citation, and academic library workflows)
 - `assets/css/styles.css` (custom design tokens, layout, interactions)
 - `assets/js/data.js` (content and interactive data contracts)
 - `assets/js/components.js` (feature initializers)
@@ -25,6 +26,7 @@ AI Horizons is a single-page, interview-ready portfolio site for an Emerging Tec
 - Future-tech poll with mock aggregate bars
 - Embedded resources with fallback links
 - Footer CTA with Formspree-ready form
+- Dedicated AI tools page (Consensus, Elicit, scite, Zotero, and more) with features and library use cases
 
 ## Replace Placeholders Before Interview
 

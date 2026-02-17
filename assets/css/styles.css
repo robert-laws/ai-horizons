@@ -513,6 +513,58 @@ footer a {
   color: #b8ece9;
 }
 
+.subpage-hero {
+  padding-top: 6.5rem;
+  padding-bottom: 2rem;
+}
+
+.tool-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.tool-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.tool-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.55rem;
+}
+
+.tool-card h3 i {
+  color: var(--primary);
+}
+
+.tool-meta {
+  display: inline-block;
+  font-size: 0.75rem;
+  border: 1px solid #a8d9d4;
+  background: #eff9f7;
+  color: #1a6674;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  margin-bottom: 0.75rem;
+}
+
+.tool-card ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.tool-card a {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
 [data-reveal] {
   opacity: 0;
   transform: translateY(18px);

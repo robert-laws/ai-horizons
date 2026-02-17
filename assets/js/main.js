@@ -52,13 +52,14 @@
 
   function init() {
     const modules = window.AIHorizonsComponents;
-    if (!modules) {
-      return;
-    }
 
     initSmoothAnchors();
     initRevealOnScroll();
     initYear();
+
+    if (!modules) {
+      return;
+    }
 
     modules.initAccordions();
     modules.initResourceFinder();
